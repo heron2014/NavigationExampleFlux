@@ -15,8 +15,3 @@ export default function nav(state = DEFAULT_STATE, action = {}) {
       return state
   }
 }
-
-// Selectors (mapStateToProps)
-export const getNav = ({scene}) => ({
-  scene
-})
