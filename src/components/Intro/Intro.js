@@ -7,8 +7,8 @@ export default function Intro(props) {
     <View>
       <Text>Introoooo</Text>
       <Text>Scene name: {props.name}</Text>
-      <TouchableOpacity onPress={() => Actions.tabbar()}>
-        <Text>Start</Text>
+      <TouchableOpacity onPress={() => Actions.intro2()}>
+        <Text>Intro 2</Text>
       </TouchableOpacity>
     </View>
   )
